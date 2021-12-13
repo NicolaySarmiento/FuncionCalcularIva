@@ -1,8 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        iva(10000,0.19f);//Iva de colombia
-        iva(20000,0.0577f);//Iva de españa
+        iva(10000,0.19f);//Iva de Colombia
+        iva(20000,0.0577f);//Iva de España
     }
 
     private static void iva(float precio,float iva) {
