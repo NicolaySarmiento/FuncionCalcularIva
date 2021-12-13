@@ -1,0 +1,14 @@
+public class Main {
+
+    public static void main(String[] args) {
+        iva(10000,0.19f);//Iva de colombia
+        iva(20000,0.0577f);//Iva de españa
+    }
+
+    private static void iva(float precio,float iva) {
+        System.out.println("Tu producto con el iva vale:");
+        float IvaDelProducto= precio*iva;
+        float Valortotal= IvaDelProducto+precio;
+        System.out.println(Valortotal);
+    }
+}
